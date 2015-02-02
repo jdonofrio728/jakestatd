@@ -9,6 +9,6 @@ if [ -z ${JAVA_HOME} ]; then
 fi
 
 export CLASSPATH="./lib/*:${JAVA_HOME}/lib/tools.jar"
-nohup ${JAVA_HOME}/bin/java -Dfile.encoding="UTF-8" -Djava.security.policy="tools.policy" org.python.util.jython jakestatd.py $* 2>&1 1>my.log &
+nohup ${JAVA_HOME}/bin/java -Dfile.encoding="UTF-8" -Djava.security.policy="tools.policy" org.python.util.jython jakestatd.py $* 2>&1 1>jakestatd.log &
 echo $! > jakestatd.pid
 

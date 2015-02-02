@@ -1,5 +1,6 @@
-# Author: jdonofrio
+# Author: Jacob D'Onofrio
 # Date: May 2014
+
 import java.lang.Integer as Integer
 import java.lang.System as System
 import java.lang.Exception as Exception

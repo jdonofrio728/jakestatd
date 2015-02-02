@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Author: jdonofrio
+# Author: Jacob D'Onofrio
 # Date: May 2014
 
 PID_FILE="jakestatd.pid"
