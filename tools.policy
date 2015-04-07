@@ -1,12 +1,3 @@
-grant codebase "file:${java.home}/../lib/tools.jar" {
-   permission java.security.AllPermission;
-};
-grant codebase "file:jstat.jar" {
-	permission java.security.AllPermission;
-};
-grant codebase "file:lib/jython-2.5.3.jar"{
-	permission java.security.AllPermission;
-};
-grant codebase "file:lib/jython-2.7-b2.jar"{
-	permission java.security.AllPermission;
+grant {
+  permission java.security.AllPermission;
 };
